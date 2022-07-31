@@ -37,13 +37,13 @@ li{
 
 
 #logo{
-    
+   
    font-size: 48px;
-   font-family: 'Times New Roman', Times, serif;
    color: rgba(128, 128, 128, 0.887);
     
 }
 .active{
-    background: #ffffff;
+    /* background: #ffffff; */
+    color: #2d2a2a;
 }
           
