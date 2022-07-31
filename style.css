@@ -1,16 +1,12 @@
 
 body {
     background-color: #f6f5f5;
-    /* font-family: 'Tangerine', serif;
-    font-size: 48px;
-    text-shadow: 4px 4px 4px #aaa; */
+    
   }  
 section{
     margin: 0px;
     padding: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   
 }
 nav{
     display: flex;
@@ -18,7 +14,12 @@ nav{
     align-items: center;
     font-family:'Times New Roman', Times, serif;
 }
-nav li{
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
     padding: 5px;
     margin-right: 5px;
 }
@@ -26,7 +27,7 @@ a{
     text-decoration: none;
   
 }
-nav li a{
+nav ul li a{
     color: #000;
     padding: 10px;
     border-radius: 4px;
