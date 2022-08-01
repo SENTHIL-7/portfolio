@@ -19,6 +19,7 @@ section{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* z-index: 1000; */
 }
 nav{
     display: flex;
@@ -105,4 +106,5 @@ nav ul li a{
     left: 70%;
     bottom: 0%;
     transform: translateX(-70%);
+    /* z-index: -100; */
  }
