@@ -68,6 +68,7 @@ nav ul li a{
     font-family: calibri;
     color: #1a1a1a;
     letter-spacing: 1px;
+    line-height: 50px;
  }
  .text-container p:nth-child(3){
     font-size: 32px;
@@ -114,7 +115,7 @@ nav ul li a{
 
  .about-container{
     height: 360px;
-    width: 80%;
+    width: 85%;
     margin: -7% auto 20px auto;
     background-color: #fff;
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
@@ -124,10 +125,35 @@ nav ul li a{
     justify-content: space-evenly;
     align-items: center;
  }
- .about-container .about-me{
+ .about-text{
     width: 550px;
  }
  .about-container img{
     height: 250px;
  }
- 
+ .about-text p:nth-child(1){
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 0px;
+    color: #2e2e2e;
+ }
+ .about-text p:nth-child(2){
+    font-weight: bold;
+    font-size: 13px;
+    color: #4d4d4d;
+ }
+ .about-text p:nth-child(3),.about-text p:nth-child(4){
+
+    font-size: 14px;
+    line-height: 12px;
+    color: #7d7d7d;
+ }
+ .about-text button{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: #202020;
+    border: none;
+    border-radius: 5px;
+    left: 35px;
+ }
