@@ -198,4 +198,7 @@ footer .contact-details{
    background-color: #ddd8d8;
    border-radius: 50%;
    margin: 10px 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
