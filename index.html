@@ -34,8 +34,8 @@
      <div class="text-container" id="home">
         <p>Hello ,</p>
         <p>I'm <span class="myName">Senthil Kumar</span></p>
-        <p>I am Front End Developer <br>& Java Developer</p>
-        <button class="download-cv">Download CV</button>
+        <p>I am Full stack Developer <br>& Java Developer</p>
+        <button class="download-cv" onclick="printCV('images/demoCV.pdf')">Download CV</button>
      </div>
      <img class="model" src="images/model.png" alt="model" >
    </section>
@@ -48,7 +48,7 @@
     <!-- =================================== About Me ========================================= -->
     <div class="about-text">
         <p>About me</p>
-    <p>I am Front End Developer & Java Developer</p>
+    <p>I am Full stack Developer & Java Developer</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
        Ullam,beatae debitis adipisci sapiente aliquam reprehenderit
     </p>
@@ -56,11 +56,17 @@
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore dolorum sequi
         maiores ullam ipsam hic.
     </p>
-    <button class="download-cv">Download CV</button>
+    <button class="download-cv"  onclick="printCV('images/demoCV.pdf')">Download CV</button>
     </div>
     
    </div>
-
+<!-- ======================================= education ============================================ -->
+<div class="edu-container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</div>
    <!-- ==================================== contact me ============================================ -->
    <footer id="contact">
     <!--==================================== contact details ======================================= -->
@@ -91,5 +97,6 @@
     <a href="https://twitter.com/Senthil71288078" target="_blank"><i class="fa fa-twitter"></i></a>
     <a href="https://www.instagram.com/senthil_kumar448/" target="_blank"><i class="fa fa-instagram"></i></a>
 </div>
+<script src="index.js"></script>
 </body>
 </html>
