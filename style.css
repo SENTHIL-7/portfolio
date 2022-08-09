@@ -170,17 +170,15 @@ nav ul li a{
  }
 footer .contact-details{
    background-color: #000000;
-  width: 100%;
-   height:auto;
-   color: #fff;
-   text-align: center;
-   
+   width: 100%;
+   text-align: center; 
 }
 .contact-details p:nth-child(1){
    font-size: 30px;
    line-height: 0px;
    margin-bottom:27px;
    font-weight: bold;
+   color: #fff;
 }
 .contact-details p:nth-child(2){
    font-size: 17px;
@@ -239,4 +237,26 @@ footer .contact-details{
    flex-direction: column;
    transform: translateY(-50%);
    
+}
+/* ======================================== education =============================== */
+.edu-container{
+   display: flex;
+   justify-content:space-evenly;
+   align-items: center;
+   margin: 10px 0px;
+}
+.edu-container div{
+   background-color: #101010;
+   text-align: center;
+   padding: 10px 5px;
+   width: auto;
+   height: 200px;
+}
+.edu-container div p:nth-child(1){
+   font-size: 22px;
+   color: #fff;
+}
+.edu-container div p:nth-child(2){
+   font-size: 17px;
+   color: #4d4d4d;
 }
