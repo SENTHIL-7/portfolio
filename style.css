@@ -1,6 +1,10 @@
 html{
    scroll-behavior: smooth;
 }
+*::selection{
+   color: #000000;
+   background-color:#505050;
+}
 body {
     background-color: #f6f5f5;
     margin: 0px;
