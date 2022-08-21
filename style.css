@@ -243,20 +243,32 @@ footer .contact-details{
    display: flex;
    justify-content:space-evenly;
    align-items: center;
-   margin: 10px 0px;
+   margin: 10px 10px;
+  
 }
 .edu-container div{
    background-color: #101010;
    text-align: center;
    padding: 10px 5px;
    width: auto;
-   height: 200px;
+   height: 40vh;
+   position: relative;
+   transition: top 2s;
+
+}
+.edu-container div:hover{
+   top:-15px;
+   background-color:black;
+   transform: scaleX(.99);
+   border-radius: 5px;
 }
 .edu-container div p:nth-child(1){
-   font-size: 22px;
+   font-size: 27px;
    color: #fff;
 }
 .edu-container div p:nth-child(2){
    font-size: 17px;
    color: #4d4d4d;
+   margin-top: 40%;
+   transform: translateY(-40%);
 }
