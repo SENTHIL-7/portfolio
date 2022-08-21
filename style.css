@@ -135,13 +135,13 @@ nav ul li a{
  }
  .about-text p:nth-child(1){
     font-weight: bold;
-    font-size: 22px;
-    line-height: 0px;
+    font-size: 27px;
     color: #2e2e2e;
  }
  .about-text p:nth-child(2){
     font-weight: bold;
-    font-size: 13px;
+    font-size: 22px;
+    line-height: 0%;
     color: #4d4d4d;
  }
  .about-text p:nth-child(3),.about-text p:nth-child(4){
@@ -172,17 +172,19 @@ footer .contact-details{
    background-color: #000000;
    width: 100%;
    text-align: center; 
+   height: 30vh;
+   position: relative;
+
 }
 .contact-details p:nth-child(1){
    font-size: 30px;
    line-height: 0px;
-   margin-bottom:27px;
+   margin-bottom:40px;
    font-weight: bold;
    color: #fff;
 }
 .contact-details p:nth-child(2){
    font-size: 17px;
- 
    color: #4d4d4d;
 }
 .contact-details .contact-btn{
@@ -190,13 +192,15 @@ footer .contact-details{
    height: 35px;
    border-radius: 5px;
    border: none;
-   margin: 15px 0px;
    font-size: 15px;
    font-weight: bold;
- 
+   position:absolute;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
 }
 .contact-btn:active{
-   transform: scale(1.1);
+   background-color: #7d7d7d;
 }
 
 /* ==============social media ======================= */
