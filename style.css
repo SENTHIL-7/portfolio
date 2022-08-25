@@ -28,7 +28,11 @@ section{
   position: relative;
   /* z-index: 1000; */
 }
-nav{
+/* ===============================================.topnav bar ============================= */
+.icon{
+   display: none;
+} 
+.topnav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,13 +41,13 @@ nav{
     box-shadow: 2px 2px 12px rgba(0, 0, 0,0.2);
     padding:0px 5%;
 }
-nav ul{
+.topnav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav ul li a{
+.topnav ul li a{
     margin:10px;
     color: #505050;
     font-size: 15px;
@@ -280,4 +284,34 @@ footer .contact-details{
    color: #4d4d4d;
    margin-top: 40%;
    transform: translateY(-40%);
+}
+
+
+/* =====================================media query ========================================= */
+@media screen and (max-width:600px) {
+   .topnav ul li a:not(.icon){
+      display: none;
+   }
+   .topnav ul li .icon{
+      display: block;
+      float: right;
+   }
+ 
+}
+@media screen and (max-width:600px){
+   .topnav.responsive {
+      position: relative;
+     }
+     .topnav.responsive ul li .icon{
+      position: absolute;
+      right: 0px;
+      top: 0px;
+     }
+    
+     .topnav.responsive ul li a{
+
+      display: block;
+      float: none;
+      text-align: left;
+     }
 }

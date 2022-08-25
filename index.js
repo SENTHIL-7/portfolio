@@ -1,3 +1,14 @@
+// =============================== menu ===========================================
+
+function myMenu() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
 function printCV(doc){
    
     	let objFra = document.createElement('iframe');     // Create an IFrame.
